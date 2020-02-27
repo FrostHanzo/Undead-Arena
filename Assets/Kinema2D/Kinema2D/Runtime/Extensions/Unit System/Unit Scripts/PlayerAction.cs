@@ -52,7 +52,7 @@ public class PlayerAction : MonoBehaviour
 
       if (controls.Player.WestButton.triggered)
         {
-            anim.SetTrigger("Attack");
+            anim.SetTrigger("Punch");
 
             Debug.Log("ATTACK");
 
