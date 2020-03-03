@@ -75,15 +75,17 @@ public class PlayerController : UnitMovement
 
         controls = new PlayerControls();
         
-         var southButton = controls.Player.SouthButton;
-            southButton.performed += HandleAttack;
-            southButton.Enable();
+         var northButton = controls.Player.NorthButton;
+            //northButton.performed += HandleAttack;
+            northButton.Enable();
 
         var eastButton = controls.Player.EastButton;
             eastButton.Enable();
 
+        var westButton = controls.Player.WestButton;
+            westButton.Enable();
 
-        var jump = controls.Player.NorthButton;
+        var jump = controls.Player.SouthButton;
             jump.performed += HandleJump;
             jump.Enable();
 

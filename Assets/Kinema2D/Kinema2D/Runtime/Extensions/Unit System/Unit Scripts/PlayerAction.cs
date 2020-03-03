@@ -13,6 +13,7 @@ public class PlayerAction : MonoBehaviour
     public Animator anim;
     public PlayerInput input;
     public PlayerControls controls;
+    public bool Attack;
 
     public UnityEvent OnSwordSwing;
 
@@ -54,7 +55,7 @@ public class PlayerAction : MonoBehaviour
         {
             anim.SetTrigger("Punch");
 
-            Debug.Log("ATTACK");
+            Debug.Log("PUNCH");
 
             //SFX_II.instance.Play("SwordSwing");
             OnSwordSwing.Invoke();
@@ -62,6 +63,58 @@ public class PlayerAction : MonoBehaviour
 
             Invoke("FreePlayer", 0.3f);
         }
+
+        //if (Input.GetButton("Fire1") && !Attack)
+        //{
+        //    Debug.Log("Upper");
+
+        //    gameObject.GetComponent<Animator>().SetBool("Uppercut", true);
+        //    Attack = true;
+        //    pc.SetMoveState(pc.attackState);
+        //    //AttackCollider.SetActive(true);
+        //    Invoke("FreePlayer", 0.3f);
+        //}
+
+        if (controls.Player.EastButton.triggered)
+        {
+            anim.SetTrigger("Kick");
+
+            Debug.Log("KICK");
+
+            //SFX_II.instance.Play("SwordSwing");
+            OnSwordSwing.Invoke();
+            pc.SetMoveState(pc.attackState);
+
+            Invoke("FreePlayer", 0.3f);
+        }
+
+        if (controls.Player.NorthButton.triggered)
+        {
+
+            anim.SetTrigger("UpperCut");
+
+            Debug.Log("UPPERCUT");
+
+            OnSwordSwing.Invoke();
+            pc.SetMoveState(pc.attackState);
+
+            Invoke("FreePlayer", 0.3f);
+
+        }
+
+        //if (controls.Player.EastButton.triggered)
+        //{
+
+        //    anim.SetTrigger("JumpKick");
+
+        //    Debug.Log("ATTACK");
+
+        //    OnSwordSwing.Invoke();
+        //    pc.SetMoveState(pc.attackState);
+
+        //    Invoke("FreePlayer", 0.3f);
+
+        //}
     }
 
     // Update is called once per frame

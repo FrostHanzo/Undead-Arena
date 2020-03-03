@@ -12,10 +12,10 @@ public class PlayerAnimator : MonoBehaviour
     public void Update()
     {
         anim.SetFloat("VelocityX", Mathf.Abs(movement.velocity.x));
-        anim.SetFloat("VelocityY", movement.velocity.y);
+        //anim.SetFloat("VelocityY", movement.velocity.y);
 
         anim.SetBool("Grounded", movement.grounded);
-        anim.SetBool("OnWall", player.wallSliding);
+        //anim.SetBool("OnWall", player.wallSliding);
         //anim.SetBool("Stunned", player.stunned);
 
 
