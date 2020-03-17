@@ -1,7 +1,49 @@
 fileFormatVersion: 2
 guid: 2113bee0336517b46918200a050d2e02
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7579289553130318500
+    second: skelington_idle
+  - first:
+      213: 3971335972364924168
+    second: skelington_idle2
+  - first:
+      213: -8527207139989289773
+    second: skelington_2
+  - first:
+      213: 7696862412444692786
+    second: skelington_jump
+  - first:
+      213: 4981211108855241337
+    second: skelington_run2
+  - first:
+      213: 4996724636738614212
+    second: skelington_run1
+  - first:
+      213: -8541913920153953767
+    second: skelington_run3
+  - first:
+      213: 495471659102502648
+    second: skelington_leftpunch
+  - first:
+      213: 8852251451005632800
+    second: skelington_attackbase
+  - first:
+      213: 488255104784488859
+    second: skelington_rightpunch
+  - first:
+      213: -663967807832230268
+    second: skelington_kick
+  - first:
+      213: 8892912553943362043
+    second: skelington_11
+  - first:
+      213: -6374787946553057763
+    second: skelington_uppercut
+  - first:
+      213: 4579788972237556706
+    second: skelington_jumpkick
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +82,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +112,294 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: skelington_idle
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1746
+        width: 207
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa692811bb0f2960800000000000000
+      internalID: 7579289553130318500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelington_idle2
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1746
+        width: 207
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805ba8c96050d1730800000000000000
+      internalID: 3971335972364924168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelington_2
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1746
+        width: 286
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d483c6094649a980800000000000000
+      internalID: -8527207139989289773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelington_jump
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1687
+        width: 255
+        height: 301
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23172da959fb0da60800000000000000
+      internalID: 7696862412444692786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelington_run2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1394
+        width: 236
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97adb86ac11d02540800000000000000
+      internalID: 4981211108855241337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelington_run1
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1394
+        width: 158
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c37f35559ee75540800000000000000
+      internalID: 4996724636738614212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelington_run3
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1394
+        width: 206
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a524feb86057980800000000000000
+      internalID: -8541913920153953767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelington_leftpunch
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 782
+        width: 294
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fef31d49d440e600800000000000000
+      internalID: 495471659102502648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelington_attackbase
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 782
+        width: 158
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02180af1bc389da70800000000000000
+      internalID: 8852251451005632800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelington_rightpunch
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 782
+        width: 275
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9953705e61a6c600800000000000000
+      internalID: 488255104784488859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelington_kick
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 781
+        width: 255
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4867ddfebcc19c6f0800000000000000
+      internalID: -663967807832230268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelington_uppercut
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 490
+        width: 280
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e534f33243887a0800000000000000
+      internalID: -6374787946553057763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelington_jumpkick
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 494
+        width: 255
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb88743ecdae8f30800000000000000
+      internalID: 4579788972237556706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

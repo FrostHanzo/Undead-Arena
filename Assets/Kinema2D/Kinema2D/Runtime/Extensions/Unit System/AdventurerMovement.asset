@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9765624f5731534aa83ab3726a7009f, type: 3}
   m_Name: AdventurerMovement
   m_EditorClassIdentifier: 
-  baseMoveSpeed: 7
-  jumpForce: 10
+  baseMoveSpeed: 12
+  jumpForce: 12
   wallJumpRecoverySpeed: 1.75
-  maxWallSlideSpeed: 2
+  maxWallSlideSpeed: 4
   maxFallSpeed: 20

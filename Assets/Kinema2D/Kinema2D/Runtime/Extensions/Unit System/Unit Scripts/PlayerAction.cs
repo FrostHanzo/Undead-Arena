@@ -64,17 +64,6 @@ public class PlayerAction : MonoBehaviour
             Invoke("FreePlayer", 0.3f);
         }
 
-        //if (Input.GetButton("Fire1") && !Attack)
-        //{
-        //    Debug.Log("Upper");
-
-        //    gameObject.GetComponent<Animator>().SetBool("Uppercut", true);
-        //    Attack = true;
-        //    pc.SetMoveState(pc.attackState);
-        //    //AttackCollider.SetActive(true);
-        //    Invoke("FreePlayer", 0.3f);
-        //}
-
         if (controls.Player.EastButton.triggered)
         {
             anim.SetTrigger("Kick");
