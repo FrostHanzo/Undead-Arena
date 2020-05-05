@@ -64,6 +64,7 @@ public class PlayerAction : MonoBehaviour
             Invoke("FreePlayer", 0.3f);
         }
 
+
         if (controls.Player.EastButton.triggered)
         {
             anim.SetTrigger("Kick");
